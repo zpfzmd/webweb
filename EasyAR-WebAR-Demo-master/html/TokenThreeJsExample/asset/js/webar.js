@@ -45,6 +45,7 @@ const WebAR = function(interval, recognizeUrl, token) {
 
                             // 将摄像头id存储在select元素中，方便切换前、后置摄像头
                             videoDeviceElement.appendChild(option);
+							Console.log  ( option.value )
                         }
                     });
 
